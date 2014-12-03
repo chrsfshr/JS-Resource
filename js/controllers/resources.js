@@ -19,13 +19,7 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 		
 		
 		
-		{
-			url: 'http://www.meteorinaction.com/',
-			title: 'Meteor in Action',
-			image: 'images/meteor.png',
-			tag: 'meteor',
-			description: 'Learn fullstack reactivity. Meteor brings the fun back to developing web applicatio...'
-		},
+		
 		
 		
 		
