@@ -1,0 +1,24 @@
+<div class="header">
+	<h1>( The JS Resource );</h1>
+	<p class="header-text">A curated list of JavaScript resources for all major frameworks.</p>
+	<a class="waves-effect waves-light btn-large" id="btn_startSearch" onclick="$('html, body').animate({scrollTop: $('#startSearch').offset().top}, 2000);"><i class="mdi-action-search left"></i>SEARCH</a>
+</div>
+
+<div class="bar" id="startSearch">
+	<input type="text" ng-model="searchString" placeholder="WHAT ARE YOU LOOKING FOR?"/>
+</div>
+
+<div class="row">
+	<div class="card" ng-repeat="i in items | searchFor:searchString | orderBy: random">
+		<div class="card-image">
+			<img ng-src="{{i.image}}">
+			<span class="card-title">{{i.title}}</span>
+		</div>
+		<div class="card-content">
+			<p>{{i.description}}</p>
+		</div>
+		<div class="card-action">
+			<a href="{{i.url}}" target="_blank">Go to site <i class="mdi-content-link"></i></a>
+		</div>
+	</div>
+</div>

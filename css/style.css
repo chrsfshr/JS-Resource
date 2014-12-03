@@ -1,0 +1,144 @@
+/*CUSTOM CSS*/
+
+.card {
+	margin: 10px !important;
+	display: inline-block;
+	max-width: 300px;
+	text-align: left;
+}
+
+.row {
+	background-image: url('../images/black_denim.png');
+	background-repeat: repeat;
+  	text-align: center;
+  	margin-bottom: 0;
+}
+
+.tag {
+	visibility: hidden;
+}
+
+.header {
+	background-image: url('../images/robots.png');
+	background-repeat: repeat;
+	margin-top: -32px;
+	height: 900px;
+	text-align: center;
+}
+
+.header h1 {
+	color: white;
+	font-weight: 900;
+	text-shadow: 5px 5px 5px #242424;
+	padding-top: 200px;
+	font-size: 6rem;
+}
+
+.header-text {
+	color: white;
+  	font-size: 2rem;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #242424;
+  	padding: 10px;
+}
+
+.about_main {
+	background-image: url('../images/black_denim.png');
+	background-repeat: repeat;
+	height: 1000px;
+	margin: auto;
+}
+
+.about_main_text {
+	max-width: 600px;
+	width: 100%;
+	font-size: 1.5rem;
+	color: white;
+	margin: auto;
+	padding: 40px 10px 10px 10px;
+}
+
+nav {
+    background-color: #8B2E2A;
+}
+
+input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #8B2E2A;
+    box-shadow: 0 1px 0 0 #8B2E2A;
+    background-color: white;
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 2rem;
+    background-color: white;
+}
+
+.btn, .btn-large {
+    background-color: #343434;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #343434;
+}
+
+.card .card-action a {
+	color: #8B2E2A;
+}
+
+.card .card-action a:hover {
+	color: #8B2E2A;
+}
+
+/*RESPONSIVE STYLES*/
+
+@media screen and (max-width: 850px) {
+    .header h1 {
+        font-size: 4rem;
+    }
+    .header-text {
+    	font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .header h1 {
+        font-size: 2.75rem;
+    }
+    .header-text {
+    	font-size: 1.35rem;
+    }
+    input[type=text] {
+    	font-size: 1rem;
+    	width: 92%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+    .header-text {
+    	font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

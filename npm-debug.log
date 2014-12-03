@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json my-web-app@1.0.0 No description
+5 warn package.json my-web-app@1.0.0 No repository field.
+6 warn package.json my-web-app@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/chrsfshr/Apps/gSearch', [ 'local-web-server' ] ]
+9 info preinstall my-web-app@1.0.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping local-web-server@^0.5.18 /Users/chrsfshr/Apps/gSearch
+12 silly resolved []
+13 info build /Users/chrsfshr/Apps/gSearch
+14 verbose linkStuff [ false, false, false, '/Users/chrsfshr/Apps' ]
+15 info linkStuff my-web-app@1.0.0
+16 verbose linkBins my-web-app@1.0.0
+17 verbose linkMans my-web-app@1.0.0
+18 verbose rebuildBundles my-web-app@1.0.0
+19 verbose rebuildBundles [ '.bin',
+19 verbose rebuildBundles   'gulp',
+19 verbose rebuildBundles   'gulp-util',
+19 verbose rebuildBundles   'gulp-webserver',
+19 verbose rebuildBundles   'local-web-server' ]
+20 verbose rebuild bundle /Users/chrsfshr/Apps/gSearch/node_modules/gulp
+21 info build /Users/chrsfshr/Apps/gSearch/node_modules/gulp
+22 info preinstall gulp@3.8.11
+23 verbose linkStuff [ false,
+23 verbose linkStuff   false,
+23 verbose linkStuff   false,
+23 verbose linkStuff   '/Users/chrsfshr/Apps/gSearch/node_modules' ]
+24 info linkStuff gulp@3.8.11
+25 verbose linkBins gulp@3.8.11
+26 verbose link bins [ { gulp: './bin/gulp.js' },
+26 verbose link bins   '/Users/chrsfshr/Apps/gSearch/node_modules/.bin',
+26 verbose link bins   false ]
+27 verbose linkMans gulp@3.8.11
+28 verbose rebuildBundles gulp@3.8.11
+29 verbose rebuildBundles [ '.bin',
+29 verbose rebuildBundles   'archy',
+29 verbose rebuildBundles   'chalk',
+29 verbose rebuildBundles   'deprecated',
+29 verbose rebuildBundles   'gulp-util',
+29 verbose rebuildBundles   'interpret',
+29 verbose rebuildBundles   'liftoff',
+29 verbose rebuildBundles   'minimist',
+29 verbose rebuildBundles   'orchestrator',
+29 verbose rebuildBundles   'pretty-hrtime',
+29 verbose rebuildBundles   'semver',
+29 verbose rebuildBundles   'tildify',
+29 verbose rebuildBundles   'v8flags',
+29 verbose rebuildBundles   'vinyl-fs' ]
+30 error Error: EACCES, unlink '/Users/chrsfshr/Apps/gSearch/node_modules/.bin/gulp'
+30 error  { [Error: EACCES, unlink '/Users/chrsfshr/Apps/gSearch/node_modules/.bin/gulp']
+30 error   errno: 3,
+30 error   code: 'EACCES',
+30 error   path: '/Users/chrsfshr/Apps/gSearch/node_modules/.bin/gulp' }
+31 error Please try running this command again as root/Administrator.
+32 error System Darwin 14.1.0
+33 error command "node" "/usr/local/bin/npm" "install"
+34 error cwd /Users/chrsfshr/Apps/gSearch
+35 error node -v v0.10.33
+36 error npm -v 1.4.28
+37 error path /Users/chrsfshr/Apps/gSearch/node_modules/.bin/gulp
+38 error code EACCES
+39 error errno 3
+40 error stack Error: EACCES, unlink '/Users/chrsfshr/Apps/gSearch/node_modules/.bin/gulp'
+41 verbose exit [ 3, true ]
