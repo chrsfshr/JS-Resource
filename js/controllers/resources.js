@@ -35,11 +35,6 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			description: 'For those who don’t know, Meteor is a “full stack” Javascript framework that tries...'
 		},
 		
-		
-		
-		
-		
-		
 		{
 			url: 'https://hackhands.com/building-instagram-clone-angularjs-satellizer-nodejs-mongodb',
 			title: 'Build an Instagram clone with Node.js and MongoDB',
