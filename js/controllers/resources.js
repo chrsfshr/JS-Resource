@@ -9,21 +9,6 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 	
 
 	$scope.items = [
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	
 
 		{
@@ -42,21 +27,13 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'node',
 			description: 'The motivation to build Satellizer came from my frustration with existing authentic...'
 		},
-		
-		
-		
-		
 		{
 			url: 'http://code.tutsplus.com/tutorials/getting-into-ember-js--net-30709',
 			title: 'Getting Into Ember.js',
 			image: 'images/ember.png',
 			tag: 'ember',
 			description: 'There are a lot of JavaScript libraries available, and most are really good at prov...'
-		},
-		
-		
-		
-		
+		},	
 		{
 			url: 'https://thinkster.io/a-better-way-to-learn-angularjs/',
 			title: 'A Better Way to Learn AngularJS',
