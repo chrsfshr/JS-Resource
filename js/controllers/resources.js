@@ -9,6 +9,27 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 	
 
 	$scope.items = [
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		{
+			url: 'http://www.meteorinaction.com/',
+			title: 'Meteor in Action',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			description: 'Learn fullstack reactivity. Meteor brings the fun back to developing web applicatio...'
+		},
+		
+		
+		
+		
 	
 
 		{
@@ -20,6 +41,11 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			description: 'For those who don’t know, Meteor is a “full stack” Javascript framework that tries...'
 		},
 		
+		
+		
+		
+		
+		
 		{
 			url: 'https://hackhands.com/building-instagram-clone-angularjs-satellizer-nodejs-mongodb',
 			title: 'Build an Instagram clone with Node.js and MongoDB',
@@ -27,13 +53,29 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'node',
 			description: 'The motivation to build Satellizer came from my frustration with existing authentic...'
 		},
+		
+		
+		
+		
 		{
 			url: 'http://code.tutsplus.com/tutorials/getting-into-ember-js--net-30709',
 			title: 'Getting Into Ember.js',
 			image: 'images/ember.png',
 			tag: 'ember',
 			description: 'There are a lot of JavaScript libraries available, and most are really good at prov...'
-		},	
+		},
+		
+		
+		{
+			url: 'http://www.embercasts.com/episodes/getting-started-with-ember-model',
+			title: 'Getting Started with Ember Model',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'In this Embercast we cover getting started with Ember Model and the Ember starter kit.'
+		},
+		
+		
+		
 		{
 			url: 'https://thinkster.io/a-better-way-to-learn-angularjs/',
 			title: 'A Better Way to Learn AngularJS',
