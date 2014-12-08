@@ -55,8 +55,45 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 		},
 		
 		
+		{
+			url: 'http://jilles.me/express-routing-the-beginners-guide/',
+			title: 'Express Routing - The Beginners Guide',
+			image: 'images/node.png',
+			tag: 'node',
+			description: 'Getting started with Express is not the easiest thing to do, if you have read my pr...'
+		},
+		{
+			url: 'http://scottksmith.com/blog/2014/10/05/twitatron-building-a-production-web-app-with-node/?utm_campaign=Front_End_Dev_Weekly_27&utm_medium=email&utm_source=Front+End+Dev+Weekly',
+			title: 'Building a Production Web App With Node',
+			image: 'images/node.png',
+			tag: 'node',
+			description: 'While writing the Beer Locker tutorials many readers commented on how helpful it wa...'
+		},
 		
 		
+		{
+			url: 'http://angular-js.in/',
+			title: 'Angular Directives',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'A curated list of Angular directives to use in your Anuglar app. Directives are used...'
+		},
+		
+		
+		{
+			url: 'http://builtwithember.io/',
+			title: 'Built with Ember',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'Ambitious web applications built using Ember.js. Brought to you by Blimp and other ...'
+		},
+		{
+			url: 'https://speakerdeck.com/lukemelia/introduction-to-ember-dot-js',
+			title: 'Intro to EmberJS',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'This talk was delivered to the Ember.js NYC Meetup on Thursday, March 28th, 2013. V...'
+		},
 		{
 			url: 'http://code.tutsplus.com/tutorials/getting-into-ember-js--net-30709',
 			title: 'Getting Into Ember.js',
