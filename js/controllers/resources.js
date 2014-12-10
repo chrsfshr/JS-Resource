@@ -41,11 +41,25 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			description: 'For those who don’t know, Meteor is a “full stack” Javascript framework that tries...'
 		},
 		
+		{
+			url: 'http://themeteorchef.com/recipes/building-a-saas-with-meteor-stripe-part-2/',
+			title: 'Building a SaaS with Meteor: Stripe (Part 2)',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			description: 'In part two of our Stripe recipe we will learn how to make it possible for our cust...'
+		},
 		
 		
 		
 		
 		
+		{
+			url: 'http://angular-ui.github.io/angular-google-maps/#!/',
+			title: 'Angular Google Maps',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'Angular Google Maps is a set of directives (part of angular-ui) written in CoffeeSc...'
+		},
 		{
 			url: 'https://hackhands.com/building-instagram-clone-angularjs-satellizer-nodejs-mongodb',
 			title: 'Build an Instagram clone with Node.js and MongoDB',
@@ -55,6 +69,13 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 		},
 		
 		
+		{
+			url: 'http://tutorialzine.com/2014/09/creating-your-first-node-js-command-line-application/',
+			title: 'Creating Your First Node.js Command-line Application',
+			image: 'images/node.png',
+			tag: 'node',
+			description: 'Command-line utilities are a must for every seasoned web developer. Node.js makes d...'
+		},
 		{
 			url: 'http://jilles.me/express-routing-the-beginners-guide/',
 			title: 'Express Routing - The Beginners Guide',
