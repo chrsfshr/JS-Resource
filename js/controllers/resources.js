@@ -30,7 +30,23 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 		
 		
 		
-	
+		
+		{
+			url: 'http://www.ng-newsletter.com/posts/validations.html',
+			title: 'Form validation with AngularJS',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'Client-side form validations are one of the coolest features inside of AngularJS...'
+		},
+		
+		
+		{
+			url: 'https://medium.com/@lelylan/building-your-first-app-for-the-internet-of-things-in-15-minutes-c0e1825484f8',
+			title: 'First App for the Internet of Things in 15 minutes',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'The presentation was based on a live code session showing how to create a web app...'
+		},
 
 		{
 			url: 'https://medium.com/@zfxuan/the-wonderful-duo-using-meteor-and-angularjs-together-4d603a4651bf',
