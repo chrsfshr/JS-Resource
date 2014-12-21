@@ -26,12 +26,59 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'meteor',
 			description: 'Learn fullstack reactivity. Meteor brings the fun back to developing web applicatio...'
 		},
-		
-		
+		{
+			url: 'https://www.youtube.com/watch?v=i9MHigUZKEM',
+			title: 'AngularJS Fundamentals In 60-ish Minutes',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'In this video youll learn how to get started with the AngularJS SPA framework. Fir...'
+		},
+		{
+			url: 'https://teamgaslight.com/blog/the-evolution-of-ember-a-look-at-its-past-present-and-future',
+			title: 'The Evolution of Ember: Past, Present and Future',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'For my co-workers and I, it was the heyday of “Ember vs. Angular.” We knew that eac...'
+		},
+		{
+			url: 'http://moduscreate.com/react-native-has-landed/',
+			title: 'React Native Has Landed',
+			image: 'images/react.png',
+			tag: 'react',
+			description: 'On January 28th, Facebook announced React Native, a bridge to its React JS framewor...'
+		},
+		{
+			url: 'https://egghead.io/technologies/angularjs',
+			title: 'AngularJS Lessons',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'AngularJS is an open-source JavaScript framework, maintained by Google, that assist...'
+		},
+		{
+			url: 'https://nodesource.com/blog/node-desktop-applications',
+			title: 'The State of Desktop Applications in Node.js',
+			image: 'images/node.png',
+			tag: 'node',
+			description: 'Though Node.js is known for being a server-side platform, interest in using it for ...'
+		},
 		
 		
 		
 		{
+			url: 'https://vickev.com/#!/article/authentication-in-single-page-applications-node-js-passportjs-angularjs',
+			title: 'Authentication in Single Page Applications',
+			image: 'images/angular.png',
+			tag: 'angular',
+			tag2: 'node',
+			description: 'In this article, we will see how to create URLs secured by a login and a password...'
+		},
+		{
+			url: 'https://www.airpair.com/angularjs/posts/angularjs-performance-large-applications',
+			title: 'AngularJS Performance in Large Applications',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'Whether you are writing an Angular front end for an old application with large use...'
+		},{
 			url: 'http://www.ng-newsletter.com/posts/validations.html',
 			title: 'Form validation with AngularJS',
 			image: 'images/angular.png',
