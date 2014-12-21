@@ -61,7 +61,27 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'node',
 			description: 'Though Node.js is known for being a server-side platform, interest in using it for ...'
 		},
-		
+		{
+			url: 'https://thinkster.io/a-better-way-to-learn-angularjs/services',
+			title: 'Using Services to Share Data Between Controllers',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'Services provide an easy way for us to share data and functionality throughout our app...'
+		},
+		{
+			url: 'http://www.sitepoint.com/practical-guide-angularjs-directives/',
+			title: 'A Practical Guide to AngularJS Directives',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'Directives are the most important components of any AngularJS application. Although...'
+		},
+		{
+			url: 'http://teamtreehouse.com/library/emberjs',
+			title: 'Treehouse EmberJS Course',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'As web applications gain increasingly rich and complex user interfaces, a new breed...'
+		},
 		
 		
 		{
@@ -85,7 +105,13 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'angular',
 			description: 'Client-side form validations are one of the coolest features inside of AngularJS...'
 		},
-		
+		{
+			url: 'http://thejackalofjavascript.com/getting-started-with-angular-2-0/',
+			title: 'Getting Started with Angular 2.0',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'Recently Angularjs team has launched a 5 mins quick start tutorial on getting started...'
+		},
 		
 		{
 			url: 'https://medium.com/@lelylan/building-your-first-app-for-the-internet-of-things-in-15-minutes-c0e1825484f8',
