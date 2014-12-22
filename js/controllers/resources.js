@@ -112,7 +112,13 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'angular',
 			description: 'Recently Angularjs team has launched a 5 mins quick start tutorial on getting started...'
 		},
-		
+		{
+			url: 'http://swirlycheetah.com/try-angular2-today/',
+			title: 'Try Angular2 Today',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'If you want to investigate what Angular2 is offering there are numerous projects and...'
+		},
 		{
 			url: 'https://medium.com/@lelylan/building-your-first-app-for-the-internet-of-things-in-15-minutes-c0e1825484f8',
 			title: 'First App for the Internet of Things in 15 minutes',
@@ -220,7 +226,13 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'ember',
 			description: 'In this Embercast we cover getting started with Ember Model and the Ember starter kit.'
 		},
-		
+		{
+			url: 'http://embersherpa.com/cheatsheet/',
+			title: 'Ember.js Cheatsheet',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'Ember.js cheatsheet and development companion for use when building SPA a good refo...'
+		},
 		
 		
 		{
