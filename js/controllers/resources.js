@@ -218,7 +218,20 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			description: 'There are a lot of JavaScript libraries available, and most are really good at prov...'
 		},
 		
-		
+		{
+			url: 'http://www.embercasts.com/episodes/client-side-authentication-part-1',
+			title: 'Client-side Authentication Part 1',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'This two-part series on client-side authentication focuses on how you can configure...'
+		},
+		{
+			url: 'http://www.toptal.com/angular-js/a-step-by-step-guide-to-your-first-angularjs-app',
+			title: 'A Step-by-Step Guide to Your First AngularJS App',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'AngularJS is a JavaScript MVC framework developed by Google that lets you build well...'
+		},
 		{
 			url: 'http://www.embercasts.com/episodes/getting-started-with-ember-model',
 			title: 'Getting Started with Ember Model',
