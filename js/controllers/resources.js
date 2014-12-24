@@ -147,7 +147,21 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 		
 		
 		
+		{
+			url: 'http://www.smashingmagazine.com/2015/02/26/build-your-own-product-hunt-with-telescope-and-meteor/',
+			title: 'Build Your Own Product Hunt With Telescope And Meteor',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			description: 'Product Hunt wasn’t the only success story of 2014. Another one was certainly Meteo...'
+		},
 		
+		{
+			url: 'https://www.youtube.com/watch?v=7iqdkVwtuvg',
+			title: 'Building a Meteor.js mobile app',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			description: 'Join Josh Owens as he builds a Meteor.js app from scratch using Ratchet, Cordova, a...'
+		},
 		{
 			url: 'http://angular-ui.github.io/angular-google-maps/#!/',
 			title: 'Angular Google Maps',
