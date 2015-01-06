@@ -143,7 +143,22 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'meteor',
 			description: 'In part two of our Stripe recipe we will learn how to make it possible for our cust...'
 		},
-		
+		{
+			url: 'http://angularjs.meteor.com/',
+			title: 'Angular-Meteor',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			tag2: 'angular',
+			description: 'ngular-Meteor brings the responsive power of Angular to the powerful and flexible M...'
+		},
+		{
+			url: 'https://teamgaslight.com/blog/3-solutions-for-using-meteor-and-angularjs-together',
+			title: '3 Solutions for Using Meteor and AngularJS Together',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			tag2: 'angular',
+			description: 'Building rich client web apps has gotten a ton better in the past 5 years. Framewo...'
+		},
 		
 		
 		
