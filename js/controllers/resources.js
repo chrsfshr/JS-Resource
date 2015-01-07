@@ -159,7 +159,21 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag2: 'angular',
 			description: 'Building rich client web apps has gotten a ton better in the past 5 years. Framewo...'
 		},
-		
+		{
+			url: 'http://joshowens.me/meteor-and-angular-a-match-made-in-heaven/',
+			title: 'METEOR AND ANGULAR - A MATCH MADE IN HEAVEN?',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			tag2: 'angular',
+			description: 'Ive only had one occasion to really try out Angular to see what I thought of it, I...'
+		},
+		{
+			url: 'http://www.sitepoint.com/beginners-guide-mobile-development-meteor/',
+			title: 'A Beginners Guide to Mobile Development with Meteor',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			description: 'If you’re a web developer who wants to release their work on iOS and Android (which...'
+		},
 		
 		
 		{
