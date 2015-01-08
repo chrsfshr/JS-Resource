@@ -174,7 +174,20 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'meteor',
 			description: 'If you’re a web developer who wants to release their work on iOS and Android (which...'
 		},
-		
+		{
+			url: 'http://meteoric.github.io/',
+			title: 'Meteor + Ionic',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			description: 'Build Meteor apps with Ionic Framework…No Angular required just use Meteors Blaze t...'
+		},
+		{
+			url: 'http://www.sitepoint.com/9-ways-meteor-1-0-will-take-world/',
+			title: '9 Ways Meteor 1.0 Will Take You Out of This World',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			description: 'For 1.0, the Meteor Development Group launched a brand new website complete with sl...'
+		},
 		
 		{
 			url: 'http://www.smashingmagazine.com/2015/02/26/build-your-own-product-hunt-with-telescope-and-meteor/',
