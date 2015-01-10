@@ -196,7 +196,20 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'meteor',
 			description: 'Product Hunt wasn’t the only success story of 2014. Another one was certainly Meteo...'
 		},
-		
+		{
+			url: 'http://tutorialzine.com/2013/08/learn-angularjs-5-examples/',
+			title: 'Learn AngularJS With These 5 Practical Examples',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'You will find the basic building blocks of Angular apps - Models, Views, Controllers...'
+		},
+		{
+			url: 'http://joshowens.me/getting-started-with-meteor-js/',
+			title: 'GETTING STARTED WITH METEOR.JS',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			description: 'What does an aspiring web developer need to know to develop a Meteor app? Below is ...'
+		},
 		{
 			url: 'https://www.youtube.com/watch?v=7iqdkVwtuvg',
 			title: 'Building a Meteor.js mobile app',
