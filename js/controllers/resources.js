@@ -232,7 +232,20 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			description: 'The motivation to build Satellizer came from my frustration with existing authentic...'
 		},
 		
-		
+		{
+			url: 'https://www.npmjs.com/',
+			title: 'NPM for NodeJS',
+			image: 'images/node.png',
+			tag: 'node',
+			description: 'Npm is the package manager for javascript and will be used in every Node app you wi...'
+		},
+		{
+			url: 'http://www.wenincode.com/installing-node-jsnpm-without-sudo/',
+			title: 'Installing Node.js/NPM Without Sudo',
+			image: 'images/node.png',
+			tag: 'node',
+			description: 'Node JS / NPM have become essential parts of many applications. Because of this, an...'
+		},
 		{
 			url: 'http://tutorialzine.com/2014/09/creating-your-first-node-js-command-line-application/',
 			title: 'Creating Your First Node.js Command-line Application',
