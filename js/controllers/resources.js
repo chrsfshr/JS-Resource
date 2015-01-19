@@ -268,7 +268,21 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			description: 'While writing the Beer Locker tutorials many readers commented on how helpful it wa...'
 		},
 		
-		
+		{
+			url: 'https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js',
+			title: 'Build A Real-Time Twitter Stream with Node and React.js',
+			image: 'images/node.png',
+			tag: 'node',
+			tag2: 'react',
+			description: 'Welcome to the second installation of Learning React, a series of articles focused ...'
+		},
+		{
+			url: 'https://robots.thoughtbot.com/ember-is-for-designers',
+			title: 'Ember is for Designers',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'Though I’ve been working with Rails for years, I started my first Ember.js client p...'
+		},
 		{
 			url: 'http://angular-js.in/',
 			title: 'Angular Directives',
