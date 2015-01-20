@@ -291,7 +291,20 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			description: 'A curated list of Angular directives to use in your Anuglar app. Directives are used...'
 		},
 		
-		
+		{
+			url: 'http://medialoot.com/blog/angularjs-for-absolute-beginners/',
+			title: 'AngularJS for Absolute Beginners',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'Lets face it, writing web applications is hard. Battling to make a functional front...'
+		},
+		{
+			url: 'https://leanpub.com/ember-cli-101',
+			title: 'Ember-CLI 101',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'Everything you wish you had known while learning to write Ember.js applications wit...'
+		},
 		{
 			url: 'http://builtwithember.io/',
 			title: 'Built with Ember',
