@@ -326,7 +326,20 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			tag: 'ember',
 			description: 'There are a lot of JavaScript libraries available, and most are really good at prov...'
 		},
-		
+		{
+			url: 'https://www.youtube.com/watch?v=Ga99hMi7wfY',
+			title: 'Building an App with Ember.js',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'Learn how to build a blog reading application from start to finish using Ember.js a...'
+		},
+		{
+			url: 'http://www.embercasts.com/episodes/client-side-authentication-part-2',
+			title: 'Client-side Authentication Part 2',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'This two-part series on client-side authentication focuses on how you can configure...'
+		},
 		{
 			url: 'http://www.embercasts.com/episodes/client-side-authentication-part-1',
 			title: 'Client-side Authentication Part 1',
@@ -356,7 +369,27 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			description: 'Ember.js cheatsheet and development companion for use when building SPA a good refo...'
 		},
 		
-		
+		{
+			url: 'https://scotch.io/tutorials/the-many-ways-to-use-ngclass',
+			title: 'The Many Ways To Use ngClass',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'AngularJS provides some great features to help us create interactive applications...'
+		},
+		{
+			url: 'https://github.com/ruanyf/react-demos',
+			title: 'React Demos',
+			image: 'images/react.png',
+			tag: 'react',
+			description: 'This is a collection of simple demos of React.js. These demos are purposely written...'
+		},
+		{
+			url: 'http://react.parts/native-ios',
+			title: 'A Catalog of React Components',
+			image: 'images/react.png',
+			tag: 'react',
+			description: 'React, React Native and logos are copyright of Facebook. This page is not affiliate...'
+		},
 		{
 			url: 'https://thinkster.io/a-better-way-to-learn-angularjs/',
 			title: 'A Better Way to Learn AngularJS',
