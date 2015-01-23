@@ -83,7 +83,20 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 			description: 'As web applications gain increasingly rich and complex user interfaces, a new breed...'
 		},
 		
-		
+		{
+			url: 'https://scotch.io/tutorials/angular-routing-using-ui-router',
+			title: 'AngularJS Routing Using UI-Router',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'AngularJS provides a great way to make single page applications. When creating single...'
+		},
+		{
+			url: 'https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi',
+			title: 'Ember Inspector',
+			image: 'images/ember.png',
+			tag: 'ember',
+			description: 'The Ember Inspector is a plug-in for the Chrome developer tools that makes understa...'
+		},
 		{
 			url: 'https://vickev.com/#!/article/authentication-in-single-page-applications-node-js-passportjs-angularjs',
 			title: 'Authentication in Single Page Applications',
