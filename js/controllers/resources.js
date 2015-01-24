@@ -18,7 +18,28 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 		
 		
 		
+		{
+			url: 'http://themeteorchef.com/recipes/building-a-saas-with-meteor-stripe-part-1/',
+			title: 'Building a SaaS with Meteor: Stripe (Part 1)',
+			image: 'images/meteor.png',
+			tag: 'meteor',
+			description: 'In this recipe (part 1 of 2) we will help a new SaaS startup Todoodle (a todo list...'
+		},
+		{
+			url: 'https://passwordless.net/?utm_campaign=Front_End_Dev_Weekly_27&utm_medium=email&utm_source=Front+End+Dev+Weekly',
+			title: 'Passwordless',
+			image: 'images/node.png',
+			tag: 'node',
+			description: 'One form and one text field. Thats all the frontend you need to let users authenti...'
+		},
 		
+		{
+			url: 'http://studioraygun.co.uk/blog/web-development/angularjs-front-end-wordpress-back-end/',
+			title: 'AngularJS front-end with WordPress back-end',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'This article will outline what I’ve managed to achieve (so far) and look at how you...'
+		},
 		{
 			url: 'http://www.meteorinaction.com/',
 			title: 'Meteor in Action',
