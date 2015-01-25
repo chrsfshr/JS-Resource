@@ -16,7 +16,20 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 		
 		
 		
-		
+		{
+			url: 'http://www.revillweb.com/tutorials/angularjs-in-30-minutes-angularjs-tutorial',
+			title: 'AngularJS Tutorial - Learn AngularJS in 30 minutes',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'This AngularJS tutorial is going to take you through a streamlined set of instructi...'
+		},
+		{
+			url: 'http://www.codingswag.com/the-depths-of-angularjss-watches/',
+			title: 'The Depths of AngularJS Watches',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'When you want to watch for changes in AngularJS, it is fairly kind to you by defaul...'
+		},
 		
 		{
 			url: 'http://themeteorchef.com/recipes/building-a-saas-with-meteor-stripe-part-1/',
