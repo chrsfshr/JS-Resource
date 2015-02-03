@@ -13,7 +13,20 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 		
 		
 		
-		
+		{
+			url: 'http://www.intridea.com/blog/2014/12/11/from-jquery-to-angularjs',
+			title: 'From jQuery to AngularJS',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'Working on a project recently, I went through a process where I converted jQuery-st...'
+		},
+		{
+			url: 'https://www.youtube.com/user/angularjs',
+			title: 'Official AngularJS Youtube Account',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'AngularJS is a client-side JavaScript framework that lets you extend HTML vocabulary...'
+		},
 		
 		
 		{
