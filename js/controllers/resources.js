@@ -12,7 +12,21 @@ app.controller('InstantSearchController', function($scope, $anchorScroll, $locat
 
 		
 		
-		
+		{
+			url: 'https://medium.com/@minipai/angularjs-tutorial-for-designers-8c7dc63ca65f',
+			title: 'AngularJS Tutorial for Designers',
+			image: 'images/angular.png',
+			tag: 'angular',
+			description: 'In this tutorial, I will show how AngularJS can help designers on writing an interaction...',
+		},
+		{
+			url: 'http://code.tutsplus.com/tutorials/token-based-authentication-with-angularjs-nodejs--cms-22543',
+			title: 'Token-Based Authentication With AngularJS & NodeJS',
+			image: 'images/angular.png',
+			tag: 'angular',
+			tag2: 'node',
+			description: 'Authentication is one of the most important parts of any web application. In this...'
+		},
 		{
 			url: 'http://www.intridea.com/blog/2014/12/11/from-jquery-to-angularjs',
 			title: 'From jQuery to AngularJS',
